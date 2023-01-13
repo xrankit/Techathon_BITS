@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.user-main{
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+}
+.user-main .side-navbar{
+    padding-top: 3vh;
+    width: 20vw;
+    background: linear-gradient(#2980b9,#8944ad);
+    position: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.user-main .side-navbar .profile-image{
+    height: 15vw;
+    width: 15vw;
+    margin-left: 2.5vw;
+    background: linear-gradient(#2980b9,#8944ad);
+    border-radius: 10vw;
+    margin-bottom: 1vh;
+    overflow: hidden;
+    
+}
+.img-profile{
+    height: 15vw;
+    width: 15vw;
+}
+.user-main .side-navbar ul li{
+    list-style: none;
+}
+.user-main .side-navbar .userlinks .links a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 50px;
+}
+.userlinks{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user-footer{
+    width: 20vw;
+    color: white;
+    height: 25vh;
+    margin-top: 1vh;
+    align-items: baseline;
+    overflow: hidden;
+}
+.new-user{
+    position: relative;
+    margin-top: 50vh;
+}
+.a5th{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: linear-gradient(120deg,white,skyblue); */
+}
+.a5th .myaccbox{
+
+/* width: 35vw; */
+border: 10px solid black;
+border-radius: 15px;
+line-height: 40px;
+padding-left: 25px;
+padding-right: 20px;
+padding-top: 20px;
+padding-bottom  : 20px;
+background: linear-gradient(120deg, skyblue, white);
+
+}
+.a5th .myaccbox .head1{
+    font-weight: 600;
+    font-size: 2rem;
+}
+.a5th .myaccbox .dat1{
+    font-size: 2rem;
+}
+.uptdet{
+    position: relative;
+    margin-top: 350px;
+    margin-right: 100px;
+}
