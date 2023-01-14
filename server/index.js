@@ -28,27 +28,7 @@ app.get('/', (req, res) => {
 
 app.use("/user", userRouter)
 app.use("/password-reset",passwordReset)
-//------------tentative apis list
 
-//--User featues
-//login--done
-//reset pwd/forgot pwd
-//submit and save details--done
-//get details --debugging
-
-//update details --code
-
-//notifs
-//nodemailer...to tell about deadlines
-
-//--Admin features
-//login --done
-//show users --done
-//user info --done
-//search user feature --frontend
-//validate --frontend
-//broadcast/create form
-//delete user --code
 
 
 app.listen(port, () => {
